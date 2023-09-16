@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Keep Notes ",
+  "version": "1.0",
+  "description": "A simple notes extension",
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "images/icon48.png"
+    }
+  },
+  "icons": {
+    "48": "images/icon48.png"
+  },
+  "background":{
+    "service_worker":"background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["popup.js"]
+    }
+  ]
+}

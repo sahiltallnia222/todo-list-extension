@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  background-color: rgb(97, 67, 248);
+  padding: 0.5rem;
+}
+body {
+    width: 600px;
+  }
+  h1{
+    font-size: 1.2rem;
+    padding:0.8rem;
+    font-weight: 500;
+    border-radius: 10px;
+    color: white;
+  }
+  
+  #todoInput {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  #addButton{
+    padding: 0.6rem 1rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    outline: none;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: rgb(97, 67, 248);
+    border: 2px solid white;
+
+  }
+  #changeFormat{
+    padding: 0.6rem 1rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    outline: none;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: rgb(97, 67, 248);
+    border: 2px solid white;
+
+  }
+  .removeButton{
+    color: red;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+
+  ul {
+    list-style: none;
+  }
+  
+  li {
+    margin-top: 0.5rem;
+    margin-bottom: 5px;
+  }
+  
+  #todoList>li >div{
+    background: rgb(255, 255, 255);
+    padding: 0.8rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    align-items: start;
+    font-size: 1rem;
+    /* overflow: scroll; */
+    overflow-x: scroll;
+    /* margin-top: 0.8rem; */
+  }
+  
